@@ -1,0 +1,39 @@
+.VictoryPoints {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  border-bottom: var(--border-default);
+  padding-bottom: 2rem;
+}
+
+.victory-points__counter {
+  display: grid;
+  align-self: center;
+  justify-self: center;
+  grid-template-columns: 20rem 20rem 20rem;
+  font-family: "Faculty Glyphic";
+  font-size: 8rem;
+  font-weight: bold;
+}
+
+.victory-points__counter input {
+  background-color: transparent;
+  font-size: 8rem;
+  border: unset;
+  color: hsl(46, 35%, 50%);
+  width: 20rem;
+  text-align: center;
+  font-family: "Faculty Glyphic";
+}
+
+.victory-points__counter input:focus {
+  outline: none;
+  color: hsl(46, 35%, 45%);
+}
+
+.victory-points__counter button {
+  background-color: transparent;
+  font-size: 8rem;
+  border: unset;
+  color: hsl(46, 35%, 50%);
+}

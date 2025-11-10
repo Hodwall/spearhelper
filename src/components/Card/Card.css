@@ -1,0 +1,47 @@
+.Card {
+  font-size: 1.1rem;
+  font-family: "Asul";
+  /* border: 1px solid tomato; */
+  /* background-color: blue; */
+  width: 16em;
+  height: 25em;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+
+  display: grid;
+  grid-template-rows: min-content min-content min-content min-content auto;
+
+  background: linear-gradient(0, hsl(42, 8%, 70%), hsl(42, 8%, 85%) 40%);
+  gap: 0.5em;
+}
+
+.card__title {
+  background-color: hsl(42, 15%, 75%);
+  padding: 0.15em 0;
+  font-family: "Cinzel";
+  font-weight: bold;
+  text-align: center;
+}
+
+.card__content {
+  padding: 0 1em;
+  text-align: justify;
+  font-size: 0.75em;
+}
+
+.card__command {
+  margin: 0.5em;
+  margin-top: 0;
+  border: 2px solid hsl(42, 8%, 65%);
+  background-color: hsl(42, 8%, 85%);
+}
+
+.card__command--title {
+  background-color: tomato;
+}
+
+.card__command--text {
+  padding: 0.5em;
+  font-size: 0.75em;
+}
