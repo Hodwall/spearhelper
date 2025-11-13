@@ -1,0 +1,257 @@
+[
+  {
+    "tactic_name": "tactics_set_2_1_name",
+    "tactic_description": "tactics_set_2_1_description",
+    "tactic_conditions": [
+      "tactics_set_2_1_conditions_1"
+    ],
+    "command_phase": "hero",
+    "command_title": "tactics_set_2_1_command_title",
+    "command_name": "tactics_set_2_1_command_name",
+    "command_description": "tactics_set_2_1_command_description",
+    "command_steps": [
+      {
+        "step_name": "tactics_set_2_1_command_steps_1_name",
+        "step_description": "tactics_set_2_1_command_steps_1_description"
+      },
+      {
+        "step_name": "tactics_set_2_1_command_steps_2_name",
+        "step_description": "tactics_set_2_1_command_steps_2_description"
+      }
+    ]
+  },
+  {
+    "tactic_name": "tactics_set_2_2_name",
+    "tactic_description": "tactics_set_2_2_description",
+    "tactic_conditions": [
+      "tactics_set_2_2_conditions_1"
+    ],
+    "command_phase": "reaction",
+    "command_title": "tactics_set_2_2_command_title",
+    "command_name": "tactics_set_2_2_command_name",
+    "command_description": "tactics_set_2_2_command_description",
+    "command_steps": [
+      {
+        "step_name": "tactics_set_2_2_command_steps_1_name",
+        "step_description": "tactics_set_2_2_command_steps_1_description"
+      },
+      {
+        "step_name": "tactics_set_2_2_command_steps_2_name",
+        "step_description": "tactics_set_2_2_command_steps_2_description"
+      }
+    ]
+  },
+  {
+    "tactic_name": "tactics_set_2_3_name",
+    "tactic_description": "tactics_set_2_3_description",
+    "tactic_conditions": [
+      "tactics_set_2_3_conditions_1",
+      "tactics_set_2_3_conditions_2"
+    ],
+    "command_phase": "end",
+    "command_title": "tactics_set_2_3_command_title",
+    "command_name": "tactics_set_2_3_command_name",
+    "command_description": "tactics_set_2_3_command_description",
+    "command_steps": [
+      {
+        "step_name": "tactics_set_2_3_command_steps_1_name",
+        "step_description": "tactics_set_2_3_command_steps_1_description"
+      },
+      {
+        "step_name": "tactics_set_2_3_command_steps_2_name",
+        "step_description": "tactics_set_2_3_command_steps_2_description"
+      }
+    ]
+  },
+  {
+    "tactic_name": "tactics_set_2_4_name",
+    "tactic_description": "tactics_set_2_4_description",
+    "tactic_conditions": [
+      "tactics_set_2_4_conditions_1",
+      "tactics_set_2_4_conditions_2"
+    ],
+    "command_phase": "hero",
+    "command_title": "tactics_set_2_4_command_title",
+    "command_name": "tactics_set_2_4_command_name",
+    "command_description": "tactics_set_2_4_command_description",
+    "command_steps": [
+      {
+        "step_name": "tactics_set_2_4_command_steps_1_name",
+        "step_description": "tactics_set_2_4_command_steps_1_description"
+      },
+      {
+        "step_name": "tactics_set_2_4_command_steps_2_name",
+        "step_description": "tactics_set_2_4_command_steps_2_description"
+      }
+    ]
+  },
+  {
+    "tactic_name": "tactics_set_2_5_name",
+    "tactic_description": "tactics_set_2_5_description",
+    "tactic_conditions": [
+      "tactics_set_2_5_conditions_1",
+      "tactics_set_2_5_conditions_2"
+    ],
+    "command_phase": "hero",
+    "command_title": "tactics_set_2_5_command_title",
+    "command_name": "tactics_set_2_5_command_name",
+    "command_description": "tactics_set_2_5_command_description",
+    "command_steps": [
+      {
+        "step_name": "tactics_set_2_5_command_steps_1_name",
+        "step_description": "tactics_set_2_5_command_steps_1_description"
+      },
+      {
+        "step_name": "tactics_set_2_5_command_steps_2_name",
+        "step_description": "tactics_set_2_5_command_steps_2_description"
+      }
+    ]
+  },
+  {
+    "tactic_name": "tactics_set_2_6_name",
+    "tactic_description": "tactics_set_2_6_description",
+    "tactic_conditions": [
+      "tactics_set_2_6_conditions_1"
+    ],
+    "command_phase": "combat",
+    "command_title": "tactics_set_2_6_command_title",
+    "command_name": "tactics_set_2_6_command_name",
+    "command_description": "tactics_set_2_6_command_description",
+    "command_steps": [
+      {
+        "step_name": "tactics_set_2_6_command_steps_1_name",
+        "step_description": "tactics_set_2_6_command_steps_1_description"
+      },
+      {
+        "step_name": "tactics_set_2_6_command_steps_2_name",
+        "step_description": "tactics_set_2_6_command_steps_2_description"
+      }
+    ]
+  },
+  {
+    "tactic_name": "tactics_set_2_7_name",
+    "tactic_description": "tactics_set_2_7_description",
+    "tactic_conditions": [
+      "tactics_set_2_7_conditions_1"
+    ],
+    "command_phase": "movement",
+    "command_title": "tactics_set_2_7_command_title",
+    "command_name": "tactics_set_2_7_command_name",
+    "command_description": "tactics_set_2_7_command_description",
+    "command_steps": [
+      {
+        "step_name": "tactics_set_2_7_command_steps_1_name",
+        "step_description": "tactics_set_2_7_command_steps_1_description"
+      },
+      {
+        "step_name": "tactics_set_2_7_command_steps_2_name",
+        "step_description": "tactics_set_2_7_command_steps_2_description"
+      }
+    ]
+  },
+  {
+    "tactic_name": "tactics_set_2_8_name",
+    "tactic_description": "tactics_set_2_8_description",
+    "tactic_conditions": [
+      "tactics_set_2_8_conditions_1"
+    ],
+    "command_phase": "charge",
+    "command_title": "tactics_set_2_8_command_title",
+    "command_name": "tactics_set_2_8_command_name",
+    "command_description": "tactics_set_2_8_command_description",
+    "command_steps": [
+      {
+        "step_name": "tactics_set_2_8_command_steps_1_name",
+        "step_description": "tactics_set_2_8_command_steps_1_description"
+      },
+      {
+        "step_name": "tactics_set_2_8_command_steps_2_name",
+        "step_description": "tactics_set_2_8_command_steps_2_description"
+      }
+    ]
+  },
+  {
+    "tactic_name": "tactics_set_2_9_name",
+    "tactic_description": "tactics_set_2_9_description",
+    "tactic_conditions": [
+      "tactics_set_2_9_conditions_1"
+    ],
+    "command_phase": "charge",
+    "command_title": "tactics_set_2_9_command_title",
+    "command_name": "tactics_set_2_9_command_name",
+    "command_description": "tactics_set_2_9_command_description",
+    "command_steps": [
+      {
+        "step_name": "tactics_set_2_9_command_steps_1_name",
+        "step_description": "tactics_set_2_9_command_steps_1_description"
+      },
+      {
+        "step_name": "tactics_set_2_9_command_steps_2_name",
+        "step_description": "tactics_set_2_9_command_steps_2_description"
+      }
+    ]
+  },
+  {
+    "tactic_name": "tactics_set_2_10_name",
+    "tactic_description": "tactics_set_2_10_description",
+    "tactic_conditions": [
+      "tactics_set_2_10_conditions_1"
+    ],
+    "command_phase": "combat",
+    "command_title": "tactics_set_2_10_command_title",
+    "command_name": "tactics_set_2_10_command_name",
+    "command_description": "tactics_set_2_10_command_description",
+    "command_steps": [
+      {
+        "step_name": "tactics_set_2_10_command_steps_1_name",
+        "step_description": "tactics_set_2_10_command_steps_1_description"
+      },
+      {
+        "step_name": "tactics_set_2_10_command_steps_2_name",
+        "step_description": "tactics_set_2_10_command_steps_2_description"
+      }
+    ]
+  },
+  {
+    "tactic_name": "tactics_set_2_11_name",
+    "tactic_description": "tactics_set_2_11_description",
+    "tactic_conditions": [
+      "tactics_set_2_11_conditions_1"
+    ],
+    "command_phase": "charge",
+    "command_title": "tactics_set_2_11_command_title",
+    "command_name": "tactics_set_2_11_command_name",
+    "command_description": "tactics_set_2_11_command_description",
+    "command_steps": [
+      {
+        "step_name": "tactics_set_2_11_command_steps_1_name",
+        "step_description": "tactics_set_2_11_command_steps_1_description"
+      },
+      {
+        "step_name": "tactics_set_2_11_command_steps_2_name",
+        "step_description": "tactics_set_2_11_command_steps_2_description"
+      }
+    ]
+  },
+  {
+    "tactic_name": "tactics_set_2_12_name",
+    "tactic_description": "tactics_set_2_12_description",
+    "tactic_conditions": [
+      "tactics_set_2_12_conditions_1"
+    ],
+    "command_phase": "combat",
+    "command_title": "tactics_set_2_12_command_title",
+    "command_name": "tactics_set_2_12_command_name",
+    "command_description": "tactics_set_2_12_command_description",
+    "command_steps": [
+      {
+        "step_name": "tactics_set_2_12_command_steps_1_name",
+        "step_description": "tactics_set_2_12_command_steps_1_description"
+      },
+      {
+        "step_name": "tactics_set_2_12_command_steps_2_name",
+        "step_description": "tactics_set_2_12_command_steps_2_description"
+      }
+    ]
+  }
+]

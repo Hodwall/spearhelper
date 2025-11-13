@@ -1,19 +1,35 @@
 .Card {
-  font-size: 1.1rem;
+  font-size: 1rem;
   font-family: "Asul";
-  /* border: 1px solid tomato; */
-  /* background-color: blue; */
-  width: 16em;
-  height: 25em;
-  overflow: hidden;
+  padding: 0.5em 0;
+  width: 21em;
+  height: 29em;
+  /* overflow: hidden; */
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
-
   display: grid;
   grid-template-rows: min-content min-content min-content min-content auto;
-
   background: linear-gradient(0, hsl(42, 8%, 70%), hsl(42, 8%, 85%) 40%);
   gap: 0.5em;
+  position: relative;
+  line-height: 1rem;
+}
+
+.Card.empty {
+  background: linear-gradient(0, hsla(30, 3%, 35%, 0.3) 40%, hsla(30, 3%, 15%, 0.1) 100%);
+  box-shadow: unset;
+}
+
+.Card.tactics-card {
+  cursor: pointer;
+}
+
+.Card p {
+  margin: 0.25em 0;
+}
+
+.Card i {
+  color: hsl(42, 5%, 55%);
 }
 
 .card__title {
@@ -22,26 +38,78 @@
   font-family: "Cinzel";
   font-weight: bold;
   text-align: center;
+  line-height: 1.2em;
+}
+
+.card__command--title.start {
+  background: linear-gradient(45deg, hsl(40, 10%, 10%), hsl(40, 10%, 15%) 50%);
+}
+
+.card__command--title.hero {
+  background: linear-gradient(45deg, hsl(50, 30%, 40%), hsl(50, 40%, 50%) 50%);
+}
+
+.card__command--title.movement {
+  background: linear-gradient(45deg, hsl(0, 0%, 48%), hsl(0, 0%, 58%) 50%);
+}
+
+.card__command--title.shooting {
+  background: linear-gradient(45deg, hsl(195, 46%, 19%), hsl(195, 56%, 29%) 50%);
+}
+
+.card__command--title.charge {
+  background: linear-gradient(45deg, hsl(29, 49%, 38%), hsl(29, 59%, 48%) 50%);
+}
+
+.card__command--title.combat {
+  background: linear-gradient(45deg, hsl(358, 52%, 23%), hsl(358, 62%, 33%) 50%);
+}
+
+.card__command--title.end {
+  background: linear-gradient(45deg, hsl(277, 20%, 28%), hsl(277, 30%, 38%) 50%);
+}
+
+.card__command--title.reaction {
+  background: linear-gradient(45deg, hsl(87, 19%, 13%), hsl(87, 29%, 23%) 50%);
 }
 
 .card__content {
   padding: 0 1em;
   text-align: justify;
-  font-size: 0.75em;
+  font-size: 0.9em;
+}
+
+.card__content--joiner {
+  text-align: center;
+  font-weight: bold;
 }
 
 .card__command {
-  margin: 0.5em;
+  margin: 0.75em;
   margin-top: 0;
   border: 2px solid hsl(42, 8%, 65%);
   background-color: hsl(42, 8%, 85%);
 }
 
 .card__command--title {
+  color: white;
+  padding: 0.15em 0.5em;
   background-color: tomato;
 }
 
 .card__command--text {
   padding: 0.5em;
-  font-size: 0.75em;
+  font-size: 0.9em;
+  text-align: justify;
+}
+
+.card__tools {
+  position: absolute;
+  bottom: -5rem;
+  display: flex;
+  justify-self: center;
+  font-family: "Cinzel";
+  font-size: 2rem;
+  color: hsl(42, 10%, 40%);
+  font-weight: bold;
 }

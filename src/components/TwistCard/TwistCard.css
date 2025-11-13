@@ -1,0 +1,61 @@
+.TwistCard {
+  display: grid;
+  grid-template-rows: auto min-content min-content;
+  gap: 2rem;
+}
+
+.twist__board-selector {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  font-family: "Cinzel";
+  font-size: 2.5rem;
+  text-align: center;
+  gap: 1rem;
+  color: hsl(42, 10%, 40%);
+  cursor: pointer;
+}
+
+.twist__board.aqshy.active {
+  color: hsl(9, 30%, 50%);
+  text-shadow: 0 0 40px tomato;
+}
+
+.twist__board.ghyran.active {
+  color: hsl(140, 30%, 40%);
+  text-shadow: 0 0 40px rgb(34, 170, 79);
+}
+
+.twist__board.ossia.active {
+  color: hsl(54, 50%, 40%);
+  text-shadow: 0 0 10px rgb(255, 226, 167);
+}
+
+.twist__board.dolorum.active {
+  color: hsl(258, 10%, 40%);
+  text-shadow: 0 0 40px rgb(76, 0, 255);
+}
+
+.twist__card p {
+  text-align: center;
+  margin: 1rem 0
+}
+
+.twist__card.aqshy {
+  box-shadow: inset 0 -150px 150px hsla(9, 20%, 50%, 0.2), rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.twist__card.ghyran {
+  box-shadow: inset 0 -150px 150px hsla(140, 20%, 50%, 0.2), rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.twist__card.ossia {
+  box-shadow: inset 0 -150px 150px hsla(47, 26%, 56%, 0.2), rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.twist__card.dolorum {
+  box-shadow: inset 0 -150px 150px hsla(253, 25%, 30%, 0.2), rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.twist__card.empty {
+  box-shadow: unset;
+}

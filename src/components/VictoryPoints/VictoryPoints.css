@@ -1,39 +1,69 @@
 .VictoryPoints {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
-  border-bottom: var(--border-default);
-  padding-bottom: 2rem;
+  gap: 1rem;
+  align-content: end;
 }
 
 .victory-points__counter {
   display: grid;
-  align-self: center;
-  justify-self: center;
-  grid-template-columns: 20rem 20rem 20rem;
+  align-self: end;
+  grid-template-columns: repeat(3, min-content);
   font-family: "Faculty Glyphic";
-  font-size: 8rem;
   font-weight: bold;
+  gap: 3rem;
 }
 
-.victory-points__counter input {
+.victory-points__input {
+  position: relative;
+}
+
+.victory-points__input input {
   background-color: transparent;
-  font-size: 8rem;
+  font-size: 4rem;
+  height: 8rem;
+  width: 8rem;
   border: unset;
-  color: hsl(46, 35%, 50%);
-  width: 20rem;
+  color: hsl(46, 35%, 75%);
   text-align: center;
   font-family: "Faculty Glyphic";
+  background-image: url(../../assets/texture_gold.jpg);
+  background-size: cover;
+  border-radius: 50%;
+  position: relative;
 }
 
-.victory-points__counter input:focus {
+.victory-points__input img {
+  position: absolute;
+  top: -0.5rem;
+  left: -0.5rem;
+  width: 9.2rem;
+  height: 9rem;
+  animation: spin 20s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.victory-points__input input:focus {
   outline: none;
   color: hsl(46, 35%, 45%);
 }
 
 .victory-points__counter button {
+  align-self: center;
   background-color: transparent;
-  font-size: 8rem;
+  font-size: 6rem;
   border: unset;
-  color: hsl(46, 35%, 50%);
+  color: hsl(46, 50%, 40%);
+  height: 6rem;
+  line-height: 6rem;
+  cursor: pointer;
+  font-family: "Cinzel";
 }

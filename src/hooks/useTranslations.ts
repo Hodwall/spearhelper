@@ -1,10 +1,13 @@
-import es from "../lang/es.json";
+import { useContext } from "react";
+import { AppContext } from "../App";
 import en from "../lang/en.json";
+import es from "../lang/es.json";
 
 type Translations = { [key: string]: string};
 
-const useTranslations = (language: "es" | "en") => {
-  const translations: Translations = language === "es" ? es : en;
+const useTranslations = () => {
+  const { lang } = useContext(AppContext);
+  const translations: Translations = lang === "es" ? es : en;
 
   const getTranslation = (id: string) => {
     return translations[id];

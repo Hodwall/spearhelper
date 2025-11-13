@@ -1,12 +1,43 @@
 .Footer {
-  box-shadow: inset 0px -50px 75px 0px hsl(235, 10%, 18%);
+  box-shadow: inset 0px -75px 75px 0px hsl(215, 20%, 9%);
   border-top: 2px solid hsl(235, 10%, 12%);
-  padding: 1em;
-  background-color: hsl(235, 10%, 14%);
-  display: flex;
+  background-color: hsl(215, 20%, 17%);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
-  justify-content: center;
+  justify-items: center;
   z-index: 99;
+  font-family: "Cinzel";
+  font-size: 2.5rem;
+  color: hsl(54, 51%, 40%);
+}
+
+.footer__lang-selector,
+.footer__set-selector {
+  user-select: none;
+  cursor: pointer;
+}
+
+.footer__set-1, 
+.footer__set-2 {
+  display: inline-flex;
+  gap: 0.5rem;
+}
+
+.footer__set-1 span:first-child {
+  text-shadow: 0 0 10px tomato;
+}
+
+.footer__set-1 span:last-child {
+  text-shadow: 0 0 10px rgb(34, 170, 79);
+}
+
+.footer__set-2 span:first-child {
+  text-shadow: 0 0 10px rgb(224, 191, 124);
+}
+
+.footer__set-2 span:last-child {
+  text-shadow: 0 0 20px rgb(76, 0, 255);
 }
 
 .Footer img {

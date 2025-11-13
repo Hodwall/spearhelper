@@ -1,24 +1,23 @@
 import useTranslations from "../../hooks/useTranslations";
 import "./TurnPhases.css";
 
-
 const TurnPhases = () => {
-  const translate = useTranslations("es");
+  const translate = useTranslations();
 
   return (
     <div className="TurnPhases">
       <div className="app-text__title">{translate("turn_phases")}</div>
       <div className="turn-phases__chart">
-        <div>START OF TURN</div>
-        <div>HERO PHASE</div>
-        <div>MOVEMENT PHASE</div>
-        <div>SHOOTING PHASE</div>
-        <div>CHARGE PHASE</div>
-        <div>COMBAT PHASE</div>
-        <div>END OF TURN</div>
+        <div>{translate("turn_phase_start")}</div>
+        <div>{translate("turn_phase_hero")}</div>
+        <div>{translate("turn_phase_movement")}</div>
+        <div>{translate("turn_phase_shooting")}</div>
+        <div>{translate("turn_phase_charge")}</div>
+        <div>{translate("turn_phase_combat")}</div>
+        <div>{translate("turn_phase_end")}</div>
       </div>
     </div>
-  )
-}
+  );
+};
 
 export default TurnPhases;
