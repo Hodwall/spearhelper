@@ -41,41 +41,8 @@
   line-height: 1.2em;
 }
 
-.card__command--title.start {
-  background: linear-gradient(45deg, hsl(40, 10%, 10%), hsl(40, 10%, 15%) 50%);
-}
-
-.card__command--title.hero {
-  background: linear-gradient(45deg, hsl(50, 30%, 40%), hsl(50, 40%, 50%) 50%);
-}
-
-.card__command--title.movement {
-  background: linear-gradient(45deg, hsl(0, 0%, 48%), hsl(0, 0%, 58%) 50%);
-}
-
-.card__command--title.shooting {
-  background: linear-gradient(45deg, hsl(195, 46%, 19%), hsl(195, 56%, 29%) 50%);
-}
-
-.card__command--title.charge {
-  background: linear-gradient(45deg, hsl(29, 49%, 38%), hsl(29, 59%, 48%) 50%);
-}
-
-.card__command--title.combat {
-  background: linear-gradient(45deg, hsl(358, 52%, 23%), hsl(358, 62%, 33%) 50%);
-}
-
-.card__command--title.end {
-  background: linear-gradient(45deg, hsl(277, 20%, 28%), hsl(277, 30%, 38%) 50%);
-}
-
-.card__command--title.reaction {
-  background: linear-gradient(45deg, hsl(87, 19%, 13%), hsl(87, 29%, 23%) 50%);
-}
-
 .card__content {
   padding: 0 1em;
-  text-align: justify;
   font-size: 0.9em;
 }
 
@@ -87,8 +54,8 @@
 .card__command {
   margin: 0.75em;
   margin-top: 0;
-  border: 2px solid hsl(42, 8%, 65%);
   background-color: hsl(42, 8%, 85%);
+  font-size: 0.9em;
 }
 
 .card__command--title {
@@ -99,8 +66,70 @@
 
 .card__command--text {
   padding: 0.5em;
-  font-size: 0.9em;
-  text-align: justify;
+}
+
+.card__command.start .card__command--title {
+  background: linear-gradient(45deg, hsl(40, 10%, 10%), hsl(40, 10%, 15%) 50%);
+}
+
+.card__command.hero .card__command--title {
+  background: linear-gradient(45deg, hsl(50, 30%, 40%), hsl(50, 40%, 50%) 50%);
+}
+
+.card__command.movement .card__command--title {
+  background: linear-gradient(45deg, hsl(0, 0%, 48%), hsl(0, 0%, 58%) 50%);
+}
+
+.card__command.shooting .card__command--title {
+  background: linear-gradient(45deg, hsl(195, 46%, 19%), hsl(195, 56%, 29%) 50%);
+}
+
+.card__command.charge .card__command--title {
+  background: linear-gradient(45deg, hsl(29, 49%, 38%), hsl(29, 59%, 48%) 50%);
+}
+
+.card__command.combat .card__command--title {
+  background: linear-gradient(45deg, hsl(358, 52%, 23%), hsl(358, 62%, 33%) 50%);
+}
+
+.card__command.end .card__command--title {
+  background: linear-gradient(45deg, hsl(277, 20%, 28%), hsl(277, 30%, 38%) 50%);
+}
+
+.card__command.reaction .card__command--title {
+  background: linear-gradient(45deg, hsl(87, 19%, 13%), hsl(87, 29%, 23%) 50%);
+}
+
+.card__command.start {
+  border: 2px solid hsla(40, 10%, 10%, 45%);
+}
+
+.card__command.hero {
+  border: 2px solid hsla(50, 30%, 40%, 45%);
+}
+
+.card__command.movement {
+  border: 2px solid hsla(0, 0%, 48%, 45%);
+}
+
+.card__command.shooting {
+  border: 2px solid hsla(195, 46%, 19%, 45%);
+}
+
+.card__command.charge {
+  border: 2px solid hsla(29, 49%, 38%, 45%);
+}
+
+.card__command.combat {
+  border: 2px solid hsla(358, 52%, 23%, 45%);
+}
+
+.card__command.end {
+  border: 2px solid hsla(277, 20%, 28%, 45%);
+}
+
+.card__command.reaction {
+  border: 2px solid hsla(87, 19%, 13%, 45%);
 }
 
 .card__tools {

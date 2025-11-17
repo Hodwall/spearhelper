@@ -12,7 +12,6 @@ const VictoryPoints = () => {
       <div className="app-text__title">{translate("victory_points")}</div>
       <div className="victory-points__counter">
         <button onClick={() => setPoints(points - 1)}>-</button>
-        {/* <button onClick={() => setPoints(points + 1)}>RESET</button> */}
         <div className="victory-points__input">
           <input
             type="number"

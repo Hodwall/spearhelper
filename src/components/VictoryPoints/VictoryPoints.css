@@ -40,6 +40,8 @@
   width: 9.2rem;
   height: 9rem;
   animation: spin 20s linear infinite;
+  pointer-events: none;
+  user-select: none;
 }
 
 @keyframes spin {
@@ -53,7 +55,7 @@
 
 .victory-points__input input:focus {
   outline: none;
-  color: hsl(46, 35%, 45%);
+  color: white;
 }
 
 .victory-points__counter button {

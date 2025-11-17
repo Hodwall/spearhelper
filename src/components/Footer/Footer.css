@@ -10,6 +10,16 @@
   font-family: "Cinzel";
   font-size: 2.5rem;
   color: hsl(54, 51%, 40%);
+  user-select: none;
+}
+
+.Footer>div:first-child {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.footer__lang-selector {
+  justify-self: end;
 }
 
 .footer__lang-selector,

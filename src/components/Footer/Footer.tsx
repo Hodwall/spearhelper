@@ -11,11 +11,14 @@ const Footer = () => {
 
   return (
     <div className="Footer">
-      <div
-        className="footer__lang-selector"
-        onClick={() => ctx?.setLang(ctx.lang === "es" ? "en" : "es")}
-      >
-        {ctx.lang === "es" ? "ES" : "EN"}
+      <div>
+        <div>SPEARHELPER</div>
+        <div
+          className="footer__lang-selector"
+          onClick={() => ctx?.setLang(ctx.lang === "es" ? "en" : "es")}
+        >
+          {ctx.lang === "es" ? "ES" : "EN"}
+        </div>
       </div>
       <img src={aos_logo} />
       <div

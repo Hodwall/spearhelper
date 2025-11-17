@@ -1,4 +1,5 @@
 import Card from "../Card/Card";
+import tactics_set_1 from "../../data/tactics_set_1.json";
 import tactics_set_2 from "../../data/tactics_set_2.json";
 import tactics_card_bg_img from "../../assets/celestial_motif.png";
 import "./TacticsCards.css";
@@ -28,10 +29,16 @@ type TacticsCardI = {
   }[];
 };
 
+const tactic_card_sets: {
+  [key: number]: TacticsCardI[];
+} = {
+  1: tactics_set_1 as TacticsCardI[],
+  2: tactics_set_2 as TacticsCardI[],
+};
+
 const TacticsCards = () => {
   const ctx = useContext(AppContext);
   const translate = useTranslations();
-  const cards_set: TacticsCardI[] = tactics_set_2 as TacticsCardI[];
 
   const [cardsActive, setCardsActive] = useState<(TacticsCardI | null)[]>([
     null,
@@ -39,13 +46,17 @@ const TacticsCards = () => {
     null,
   ]);
   const [cardsDiscarded, setCardsDiscarded] = useState<TacticsCardI[]>([]);
-  const [cardsDeck, setCardsDeck] = useState<TacticsCardI[]>([...cards_set]);
+  const [cardsDeck, setCardsDeck] = useState<TacticsCardI[]>([
+    ...tactic_card_sets[ctx.spearhead_set],
+  ]);
 
   useEffect(() => {
     setCardsActive([null, null, null]);
     setCardsDiscarded([]);
-    setCardsDeck([...cards_set]);
+    setCardsDeck([...tactic_card_sets[ctx.spearhead_set]]);
   }, [ctx.spearhead_set]);
+
+  console.log(cardsDeck);
 
   const handleDrawCard = () => {
     if (!cardsActive.some((card) => !card)) return;
@@ -113,8 +124,8 @@ const TacticsCards = () => {
                 ))}
               </div>
               <div className="card__title">· {translate("command")} ·</div>
-              <div className="card__command">
-                <div className={`card__command--title ${card.command_phase}`}>
+              <div className={`card__command ${card.command_phase}`}>
+                <div className={`card__command--title`}>
                   {translate(card.command_title)}
                 </div>
                 <div className="card__command--text">

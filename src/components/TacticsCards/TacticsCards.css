@@ -1,6 +1,7 @@
 .TacticsCards {
   display: grid;
   grid-template-rows: auto min-content;
+  user-select: none;
 }
 
 .tactics-cards__board {

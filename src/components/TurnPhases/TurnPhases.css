@@ -6,10 +6,11 @@
 .turn-phases__chart {
   display: flex;
   flex-direction: column;
-  outline: 6px solid hsla(42, 20%, 25%, 0.05);
+  outline: 6px solid hsla(42, 20%, 25%, 0.1);
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
   font-size: 0.9rem;
   font-family: "Asul";
-  background-color: hsla(42, 10%, 65%);
   user-select: none;
   width: 20rem;
 }
@@ -28,29 +29,38 @@
 .turn-phases__chart>div:nth-child(1) {
   background: linear-gradient(45deg, hsl(40, 10%, 10%), hsl(40, 10%, 15%) 50%);
   border-top-width: 4px;
+  color: hsl(40, 0%, 75%);
 }
 
 .turn-phases__chart>div:nth-child(2) {
   background: linear-gradient(45deg, hsl(50, 30%, 40%), hsl(50, 40%, 50%) 50%);
+  color: hsl(50, 100%, 80%);
 }
 
 .turn-phases__chart>div:nth-child(3) {
   background: linear-gradient(45deg, hsl(0, 0%, 48%), hsl(0, 0%, 58%) 50%);
+  color: hsl(40, 0%, 87%);
 }
 
 .turn-phases__chart>div:nth-child(4) {
   background: linear-gradient(45deg, hsl(195, 46%, 19%), hsl(195, 56%, 29%) 50%);
+  color: hsl(195, 100%, 88%);
 }
 
 .turn-phases__chart>div:nth-child(5) {
   background: linear-gradient(45deg, hsl(29, 49%, 38%), hsl(29, 59%, 48%) 50%);
+  color: hsl(29, 100%, 88%);
 }
 
 .turn-phases__chart>div:nth-child(6) {
   background: linear-gradient(45deg, hsl(358, 52%, 23%), hsl(358, 62%, 33%) 50%);
+  color: hsl(358, 100%, 88%);
 }
 
 .turn-phases__chart>div:nth-child(7) {
   background: linear-gradient(45deg, hsl(277, 20%, 28%), hsl(277, 30%, 38%) 50%);
   border-bottom-width: 4px;
+  color: hsl(277, 100%, 88%);
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
 }
